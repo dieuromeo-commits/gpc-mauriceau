@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GPC Mauriceau//Newsletter//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:soiree-effrayante-13-11@gpc-mauriceau
+DTSTAMP:20261107T084241Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Soirée effrayante du centre de loisirs 🎃
+DESCRIPTION:Soirée Halloween du centre de loisirs de l'école Mauriceau.
+LOCATION:Centre de loisirs Mauriceau\, Asnières-sur-Seine
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Soirée effrayante du centre de loisirs 🎃
+TRIGGER:-PT12H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
